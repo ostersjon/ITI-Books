@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Books</title>
+    <link rel="stylesheet" href="Task.css">
+</head>
+<body>
+
+    
+    <center>
+        <div id="Welcomepage">
+            <div>Enter Book Numbers</div>
+            <input placeholder="Enter a valid number only" required type="number" id="num"/>
+            <br>
+            <button id="EnterNum">Enter</button>
+        </div>
+
+        <form>
+             
+        <h5>Add Books</h5>
+
+            <label>Book's Name</label>
+            <input id="BookName" type="text"/>
+            <span></span>
+            
+            <label>Book Price</label>
+            <input id="BookPrice" type="text"/>
+            <span></span>
+            
+            <label >Author Name</label>
+            <input id="AuthName" type="text"/>
+            <span></span>
+            
+            <label >Author Email</label>
+            <input id="AuthEmail" type="text"/>
+            <span></span>
+            <br>
+            
+            <button id="Add">Add</button>
+            <button type="reset">reset</button>
+
+        </form>
+    <div id="TableDiv">
+
+            <h2>Books Data</h2>
+            <table id="Table">
+            <thead>
+                <tr>
+                    <td>Book Name</td>
+                    <td>Book Price</td>
+                    <td>Author Name</td>
+                    <td>Author Email</td>
+                    <td>Edit</td>
+                    <td>Delete</td>
+                </tr>
+            </thead>
+            
+            <tbody></tbody>
+        </table>
+
+    </div>
+    </center>
+
+    <script src="Task.js"></script>
+</body>
+</html>
